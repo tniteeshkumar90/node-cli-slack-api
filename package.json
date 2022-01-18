@@ -7,12 +7,15 @@
   "scripts": {
     "test": "mocha test/*test.js"
   },
+  "bin": {
+    "slack-client": "node app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tniteeshkumar90/node-cli-slack-api.git"
   },
   "author": "Niteesh Kumar Thadakamalla",
-  "jest":{
+  "jest": {
     "verbose": true
   },
   "license": "ISC",
@@ -34,6 +37,7 @@
     "nock": "~13.2.2",
     "qs": "^6.10.3",
     "request": "~2.88.2",
+    "slack-client": "^2.0.6",
     "yargs": "^17.3.1"
   }
 }
