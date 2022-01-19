@@ -16,3 +16,5 @@ npm install slack-client
 You can run this CLI two ways
 1. Download the code, open the visual studio code / terminal, navigate to project and run node app.js
 2. You can also link this, by using command sudo link and then start using slack-client command to call this CLI
+
+## Note: Please set the slack_token in your environment before running this code. CLI will throw error if slack_token is not set.
